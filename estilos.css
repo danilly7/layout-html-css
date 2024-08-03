@@ -4,20 +4,36 @@
     justify-content: space-between;
     align-content: center;
     border: 20px solid black;
-    background-color: rgb(85, 101, 130);
     margin: 15px 10px;
     padding: 5px;
-
 }
 
 .button {
-    background-color: rgb(241, 156, 114);
+    background-color: rgba(243, 100, 53, 0.917);
     margin: 15px;
-    padding: 10px 70px; 
+    padding: 10px;
+}
+
+#box-1 {
+    background-color: rgb(85, 101, 130);
+    margin-bottom: 0;
 }
 
 #button-logo {
-    display: flex;
-    flex-direction: row;
-    justify-content: start;
+    padding: 10px 120px 10px 10px;
+}
+
+#button-nav {
+    margin-left: 0;
+    padding: 10px 1000px 10px 10px;
+}
+
+#button-social {
+    margin-left: 0;
+    padding: 10px 120px 10px 10px;
+}
+
+#box-2 {
+    background-color: orange;
+    margin-top: 0;
 }
