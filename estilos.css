@@ -21,17 +21,19 @@
 }
 
 #button-logo {
-    padding: 10px 120px 10px 10px;
+    margin-right: 0;
+    width: 15%;
 }
 
 #button-nav {
-    margin-left: 0;
-    padding: 10px 1000px 10px 10px;
+    margin-left: 20px;
+    margin-right: 0;
+    width: 70%;
 }
 
 #button-social {
-    margin-left: 0;
-    padding: 10px 120px 10px 10px;
+    margin-left: 20px;
+    width: 15%;
 }
 
 #box-2 {
@@ -44,6 +46,4 @@
     background-color: rgb(255, 238, 0);
     background-size: cover;
     width: 100%;
-
-    
 }
