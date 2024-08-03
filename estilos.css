@@ -59,6 +59,8 @@
     grid-template-columns: auto auto;
     grid-template-rows: auto auto auto;
     justify-content: stretch;
+    margin-right: 0;
+    border-right: 0;
 }
 
 #button-navegacion {
@@ -75,9 +77,10 @@
 #box-4 {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     align-content: center;
     background-color: rgba(244, 35, 35, 0.897);
+    margin-left: 0;
 }
 
 .button-publicidad {
@@ -86,3 +89,7 @@
     padding: 10px;
 }
 
+#boxes-together {
+    display: grid;
+    grid-template-columns: 75% auto;
+}
