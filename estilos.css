@@ -1,3 +1,7 @@
+body {
+    max-width: 1200px;
+}
+
 .box {
     display: flex;
     flex-direction: row;
@@ -92,4 +96,31 @@
 #boxes-together {
     display: grid;
     grid-template-columns: 75% auto;
+}
+
+@media only screen and (min-width:768px) {
+    #box-1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+
+    #button-logo,
+    #button-nav,
+    #button-social {
+        margin-left: auto;
+        margin-right: auto;
+        background-size: cover;
+        width: 92%;
+    }
+
+    #boxes-together {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+    }
+
+    
+
 }
