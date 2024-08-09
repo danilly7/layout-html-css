@@ -1,5 +1,6 @@
 body {
     max-width: 1200px;
+    background-color: lightblue;
 }
 
 .box {
@@ -100,6 +101,10 @@ body {
 }
 
 @media only screen and (min-width:768px) and (max-width: 991px) {
+    body {
+        background-color: lightpink;
+    }
+
     #box-1 {
         display: flex;
         flex-direction: column;
@@ -145,6 +150,10 @@ body {
 }
 
 @media only screen and (max-width:767px) {
+    body {
+        background-color: lightgreen;
+    }
+
     #box-1 {
         display: flex;
         flex-direction: column;
