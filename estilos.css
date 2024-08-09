@@ -104,6 +104,8 @@ body {
         flex-direction: column;
         justify-content: center;
         align-content: center;
+
+        border-bottom: 1px solid black;
     }
 
     #button-logo,
@@ -121,6 +123,22 @@ body {
         grid-template-rows: auto auto;
     }
 
-    
+    #box-3 {
+        border: 20px solid black;
+
+        border-bottom: 1px solid black;
+        margin: 15px 10px 0 10px;
+    }
+
+    #box-4 {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-content: center;
+        border: 20px solid black;
+
+        border-top: 20px solid black;
+        margin: 0 10px 15px 10px;
+    }
 
 }
