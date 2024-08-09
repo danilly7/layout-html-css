@@ -85,6 +85,7 @@ body {
     align-content: center;
     background-color: rgba(244, 35, 35, 0.897);
     margin-left: 0;
+    border-left: 20px solid black;
 }
 
 .button-publicidad {
@@ -98,7 +99,7 @@ body {
     grid-template-columns: 75% auto;
 }
 
-@media only screen and (min-width:768px) {
+@media only screen and (min-width:768px) and (max-width: 991px) {
     #box-1 {
         display: flex;
         flex-direction: column;
@@ -128,6 +129,60 @@ body {
 
         border-bottom: 1px solid black;
         margin: 15px 10px 0 10px;
+    }
+
+    #box-4 {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-content: center;
+        border: 20px solid black;
+
+        border-top: 20px solid black;
+        margin: 0 10px 15px 10px;
+    }
+
+}
+
+@media only screen and (max-width:767px) {
+    #box-1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-content: space-around;
+        padding: 10px 20px;
+
+        border-bottom: 1px solid black;
+    }
+
+    #button-logo,
+    #button-nav,
+    #button-social {
+        margin-left: auto;
+        margin-right: auto;
+        background-size: cover;
+        width: 92%;
+    }
+
+    #boxes-together {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+    }
+
+    #box-3 {
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto;
+        justify-content: stretch;
+
+        border: 20px solid black;
+
+        border-bottom: 1px solid black;
+        margin: 15px 10px 0 10px;
+    }
+
+    .button-article {
+        grid-column: 1/3;
     }
 
     #box-4 {
