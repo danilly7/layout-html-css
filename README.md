@@ -1,4 +1,4 @@
-# SPRING 1. MAQUETACIÓN - S1.1. HTML y CSS con Flex
+# SPRINT 1. MAQUETACIÓN - S1.1. HTML y CSS con Flex
 
 ## Descripción: 
 
