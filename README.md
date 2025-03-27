@@ -25,13 +25,13 @@ Para instalar este proyecto localmente:
 1. Clona el repositorio:
 
    ```bash
-   git clone https://github.com/danilly7/S1.1.-HTML-i-CSS-amb-Flex.git
+   git clone https://github.com/danilly7/layout-html-css.git
    ``` 
    
 2. Navega a la carpeta del proyecto:
 
    ```bash
-   cd S1.1.-HTML-i-CSS-amb-Flex
+   cd layout-html-css
    ```
 
 3. Ejecutar el archivo HTML y visualizar el proyecto en el navegador de preferencia.
