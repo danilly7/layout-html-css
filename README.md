@@ -1,4 +1,4 @@
-# SPRINT 1. MAQUETACIÓN - S1.1. HTML y CSS con Flex
+# MAQUETACIÓN - HTML y CSS con Flex
 
 ## Descripción: 
 
